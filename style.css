@@ -17,7 +17,7 @@ body {
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 2;
+    z-index: 1;
 }
 
 .navbar__s1__title {
@@ -97,7 +97,7 @@ body {
 }
 .sale-image {
     position: relative;
-    z-index: 1;
+    
 }
 
 .sale-image_offer {
