@@ -71,6 +71,7 @@ body {
 
 .mylearning:hover .mylearning__popup {
     display: block;
+    
 }
 
 .categories {
@@ -104,10 +105,10 @@ body {
     width: 35%;
     border: solid black 2px;
     background-color: white;
-    padding: 2%;
+    padding: 3%;
     position: absolute;
-    top: 20%;
-    left: 30px;
+    top: 12%;
+    left: 15px;
     animation-name: zoom;
     animation-duration: 2s;
     opacity: 0;
@@ -163,11 +164,18 @@ body {
     margin-top: 10px;
 }
 
-.topics__container p {
+.topics__container p1,p2,p3,p4,p5,p6,p7,p8,p9{
     border: solid black 2px;
     padding: 10px;
     flex-grow: 1;
     flex-basis: 25%;
+    cursor: pointer;
+}
+
+.topics__container p1:hover,p2:hover,p3:hover,p4:hover,p5:hover,p6:hover,p7:hover,p8:hover,p9:hover{
+    background-color: gray;
+    color: white;
+    
 }
 
 .popular {
@@ -226,5 +234,13 @@ body {
         display: block;
     }
 
+    .sale-image_offer{
+        width: 40%;
+        height: 50%;
+    }
+
+    .sale-image_offer h1{
+        font-size: larger;
+    }
 
 }
